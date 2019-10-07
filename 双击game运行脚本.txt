@@ -1,0 +1,6 @@
+1、在pycharm中正常运行，双击时不运行？
+
+原因：在pycharm中添加的第三方库，只是添加到了项目中，并没有真正的添加到本地上。而双击运行的是python ，Python的库中找不到pygame，结果是黑框一闪而过。
+
+解决措施：下载python，并用pip install pygame命令，安装第三方库pygame。
+
